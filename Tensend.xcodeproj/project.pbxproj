@@ -12,6 +12,7 @@
 		2FD04BC223DB041B00FF2D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC023DB041B00FF2D15 /* Main.storyboard */; };
 		2FD04BC423DB041D00FF2D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC323DB041D00FF2D15 /* Assets.xcassets */; };
 		2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC523DB041D00FF2D15 /* LaunchScreen.storyboard */; };
+		AA065FB023DDE04300DAD529 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = AA065FAF23DDE04300DAD529 /* Montserrat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FD04BC323DB041D00FF2D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD04BC623DB041D00FF2D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD04BC823DB041D00FF2D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA065FAF23DDE04300DAD529 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2FD04BBB23DB041B00FF2D15 /* Tensend */ = {
 			isa = PBXGroup;
 			children = (
+				AA065FAF23DDE04300DAD529 /* Montserrat */,
 				2FD04BBC23DB041B00FF2D15 /* AppDelegate.swift */,
 				2FD04BBE23DB041B00FF2D15 /* ViewController.swift */,
 				2FD04BC023DB041B00FF2D15 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */,
+				AA065FB023DDE04300DAD529 /* Montserrat in Resources */,
 				2FD04BC423DB041D00FF2D15 /* Assets.xcassets in Resources */,
 				2FD04BC223DB041B00FF2D15 /* Main.storyboard in Resources */,
 			);

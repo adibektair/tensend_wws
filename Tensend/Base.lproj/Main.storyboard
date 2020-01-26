@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Rs-Bn-Kue">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -27,10 +27,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Монтажная область -3" translatesAutoresizingMaskIntoConstraints="NO" id="gYh-xL-KI7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Монтажная область -3" translatesAutoresizingMaskIntoConstraints="NO" id="gYh-xL-KI7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="360"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="gYh-xL-KI7" secondAttribute="height" multiplier="375:326" id="GSn-0E-Kay"/>
+                                    <constraint firstAttribute="height" constant="360" id="D1j-W3-E5d"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Path 10" translatesAutoresizingMaskIntoConstraints="NO" id="ApC-IJ-XFg">
@@ -41,24 +41,30 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tensend" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIK-uX-Wa5">
-                                <rect key="frame" x="169.5" y="235.5" width="75" height="23.5"/>
+                                <rect key="frame" x="164.5" y="235.5" width="85" height="24.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxh-El-OYY">
                                 <rect key="frame" x="50" y="410" width="314" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="g2Y-Fs-aMI"/>
+                                </constraints>
                                 <string key="text">Жеке дамуға 
 саяхатымызды бастайық!</string>
-                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.26274509800000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ok-bm-DrN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ok-bm-DrN">
                                 <rect key="frame" x="50" y="472" width="314" height="37.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37.5" id="nXe-iJ-b6I"/>
+                                </constraints>
                                 <string key="text">Tensend-те үйрену және табыс 
 табу үшін тіркеліңіз</string>
-                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,20 +93,23 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdy-gd-ogm">
-                                <rect key="frame" x="128.5" y="794" width="157" height="32"/>
+                                <rect key="frame" x="120" y="793" width="174" height="33"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
                                 <state key="normal" title="КЕЙІН ТІРКЕЛЕМІН">
                                     <color key="titleColor" red="0.20392156859999999" green="0.26274509800000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Аккаунтыңыз бар ма?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxe-bf-WYL">
-                                <rect key="frame" x="124.5" y="703" width="165" height="19"/>
+                                <rect key="frame" x="116" y="701" width="182" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="D1O-Nl-hwN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeP-lX-F2n">
-                                <rect key="frame" x="177" y="727" width="60" height="32"/>
+                                <rect key="frame" x="173.5" y="725" width="67" height="33"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
                                 <state key="normal" title="КІРІҢІЗ">
                                     <color key="titleColor" red="0.0" green="0.28235294119999998" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,7 +126,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC9-2y-9ye">
-                                        <rect key="frame" x="50" y="25.5" width="19" height="19"/>
+                                        <rect key="frame" x="50" y="25" width="19" height="20"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                         <color key="textColor" red="0.2097616196" green="0.26554808019999998" blue="0.33209526540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -130,7 +139,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Телефон нөміріңіз" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcD-nN-IZt">
-                                        <rect key="frame" x="117" y="25.5" width="137.5" height="19"/>
+                                        <rect key="frame" x="117" y="25" width="156" height="20"/>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                         <color key="textColor" red="0.2097616196" green="0.26554808019999998" blue="0.33209526540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -172,6 +181,7 @@
                             <constraint firstItem="c91-5n-9eq" firstAttribute="trailing" secondItem="0Ok-bm-DrN" secondAttribute="trailing" constant="50" id="Rbo-Tc-n9i"/>
                             <constraint firstItem="c91-5n-9eq" firstAttribute="trailing" secondItem="gYh-xL-KI7" secondAttribute="trailing" id="SAA-bL-x2W"/>
                             <constraint firstItem="rdQ-uv-Hkl" firstAttribute="leading" secondItem="c91-5n-9eq" secondAttribute="leading" constant="30" id="ZJk-mg-APw"/>
+                            <constraint firstItem="kxe-bf-WYL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="rdQ-uv-Hkl" secondAttribute="bottom" constant="5" id="aje-f6-yXL"/>
                             <constraint firstItem="0Ok-bm-DrN" firstAttribute="top" secondItem="rxh-El-OYY" secondAttribute="bottom" constant="20" id="eo8-ed-wdo"/>
                             <constraint firstItem="gYh-xL-KI7" firstAttribute="leading" secondItem="c91-5n-9eq" secondAttribute="leading" id="fDb-VX-Fhr"/>
                             <constraint firstItem="aAN-o7-st3" firstAttribute="centerY" secondItem="nuM-qd-v17" secondAttribute="centerY" id="jwM-Ie-JwJ"/>
@@ -185,6 +195,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c91-5n-9eq"/>
                     </view>
+                    <connections>
+                        <outlet property="phoneView" destination="rdQ-uv-Hkl" id="v6L-w0-7eq"/>
+                        <outlet property="topImageHeightConstraint" destination="D1j-W3-E5d" id="TeZ-6i-EPP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8TG-YG-zXM" sceneMemberID="firstResponder"/>
             </objects>
