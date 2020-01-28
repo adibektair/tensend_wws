@@ -11,8 +11,8 @@ import EasyPeasy
 class CategoriesView: UIView {
 
     let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout.init())
-    override init(frame: CGRect = .zero) {
-        super.init(frame: .zero)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: "ImagesWithTitleCVC", bundle: nil), forCellWithReuseIdentifier: "ImagesWithTitleCVC")
@@ -33,9 +33,7 @@ extension CategoriesView: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesWithTitleCVC", for: indexPath) as! ImagesWithTitleCVC
         cell.img.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
-
         return cell
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

@@ -10,11 +10,11 @@ import UIKit
 import EasyPeasy
 class OnlyImageCVC: UICollectionViewCell {
     let image = UIImageView()
-
+    
     override func awakeFromNib() {
-           super.awakeFromNib()
-           self.addSubview(image)
-                self.image.easy.layout(Edges())
-       }
+        super.awakeFromNib()
+        self.addSubview(image)
+        self.image.easy.layout(Edges())
+    }
     
 }
