@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,19 @@
 		2F1D8B8423DDD3C6005C4A61 /* ScrollStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */; };
 		2F1D8B8723DDDA3F005C4A61 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */; };
 		2F1D8B8923DDDA4C005C4A61 /* LabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */; };
+		2F5FBAFC23E06BA100F64D4D /* FirstBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */; };
+		2F5FBAFE23E06CF800F64D4D /* StackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */; };
+		2F5FBB0123E06D9100F64D4D /* OnlyImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */; };
+		2F89180323E07B5700200429 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89180223E07B5700200429 /* CategoriesView.swift */; };
+		2F89180623E07B7A00200429 /* ImagesWithTitleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89180423E07B7A00200429 /* ImagesWithTitleCVC.swift */; };
+		2F89180723E07B7A00200429 /* ImagesWithTitleCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F89180523E07B7A00200429 /* ImagesWithTitleCVC.xib */; };
 		2FD04BBD23DB041B00FF2D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD04BBC23DB041B00FF2D15 /* AppDelegate.swift */; };
 		2FD04BBF23DB041B00FF2D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD04BBE23DB041B00FF2D15 /* ViewController.swift */; };
 		2FD04BC223DB041B00FF2D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC023DB041B00FF2D15 /* Main.storyboard */; };
 		2FD04BC423DB041D00FF2D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC323DB041D00FF2D15 /* Assets.xcassets */; };
 		2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD04BC523DB041D00FF2D15 /* LaunchScreen.storyboard */; };
 		AA065FB023DDE04300DAD529 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = AA065FAF23DDE04300DAD529 /* Montserrat */; };
+		B575D1C644DF907B6C1FC8C8 /* Pods_Tensend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31AD42522A635179C094B89 /* Pods_Tensend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,12 @@
 		2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackController.swift; sourceTree = "<group>"; };
 		2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtensions.swift; sourceTree = "<group>"; };
+		2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBannerView.swift; sourceTree = "<group>"; };
+		2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewExtensions.swift; sourceTree = "<group>"; };
+		2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyImageCVC.swift; sourceTree = "<group>"; };
+		2F89180223E07B5700200429 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		2F89180423E07B7A00200429 /* ImagesWithTitleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesWithTitleCVC.swift; sourceTree = "<group>"; };
+		2F89180523E07B7A00200429 /* ImagesWithTitleCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesWithTitleCVC.xib; sourceTree = "<group>"; };
 		2FD04BB923DB041B00FF2D15 /* Tensend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tensend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD04BBC23DB041B00FF2D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD04BBE23DB041B00FF2D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +44,10 @@
 		2FD04BC323DB041D00FF2D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD04BC623DB041D00FF2D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD04BC823DB041D00FF2D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47492243D7AA93527567AB07 /* Pods-Tensend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tensend.release.xcconfig"; path = "Target Support Files/Pods-Tensend/Pods-Tensend.release.xcconfig"; sourceTree = "<group>"; };
+		55BB1AE0EFD66FB5BAEE6D9E /* Pods-Tensend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tensend.debug.xcconfig"; path = "Target Support Files/Pods-Tensend/Pods-Tensend.debug.xcconfig"; sourceTree = "<group>"; };
 		AA065FAF23DDE04300DAD529 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		D31AD42522A635179C094B89 /* Pods_Tensend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tensend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,12 +55,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B575D1C644DF907B6C1FC8C8 /* Pods_Tensend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1866C44C46610E04B13AB3A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55BB1AE0EFD66FB5BAEE6D9E /* Pods-Tensend.debug.xcconfig */,
+				47492243D7AA93527567AB07 /* Pods-Tensend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2F1D8B8023DDD38D005C4A61 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */,
+				2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */,
 				2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */,
 				2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */,
 			);
@@ -67,8 +94,20 @@
 		2F1D8B8523DDD776005C4A61 /* Home Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */,
+				2F89180223E07B5700200429 /* CategoriesView.swift */,
 			);
 			path = "Home Views";
+			sourceTree = "<group>";
+		};
+		2F5FBAFF23E06D7000F64D4D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */,
+				2F89180423E07B7A00200429 /* ImagesWithTitleCVC.swift */,
+				2F89180523E07B7A00200429 /* ImagesWithTitleCVC.xib */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 		2FD04BB023DB041B00FF2D15 = {
@@ -76,6 +115,8 @@
 			children = (
 				2FD04BBB23DB041B00FF2D15 /* Tensend */,
 				2FD04BBA23DB041B00FF2D15 /* Products */,
+				1866C44C46610E04B13AB3A6 /* Pods */,
+				DC86CEF2468D27A6F58835B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +134,7 @@
 				AA065FAF23DDE04300DAD529 /* Montserrat */,
 				2FD04BBC23DB041B00FF2D15 /* AppDelegate.swift */,
 				2FD04BBE23DB041B00FF2D15 /* ViewController.swift */,
+				2F5FBAFF23E06D7000F64D4D /* CollectionViewCells */,
 				2F1D8B8223DDD3A5005C4A61 /* Extensions */,
 				2F1D8B8023DDD38D005C4A61 /* Home */,
 				2FD04BC023DB041B00FF2D15 /* Main.storyboard */,
@@ -103,6 +145,14 @@
 			path = Tensend;
 			sourceTree = "<group>";
 		};
+		DC86CEF2468D27A6F58835B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31AD42522A635179C094B89 /* Pods_Tensend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FD04BCB23DB041D00FF2D15 /* Build configuration list for PBXNativeTarget "Tensend" */;
 			buildPhases = (
+				44E2B17976F6A03FD7EEA104 /* [CP] Check Pods Manifest.lock */,
 				2FD04BB523DB041B00FF2D15 /* Sources */,
 				2FD04BB623DB041B00FF2D15 /* Frameworks */,
 				2FD04BB723DB041B00FF2D15 /* Resources */,
+				942D479FFC9243CF355121E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */,
+				2F89180723E07B7A00200429 /* ImagesWithTitleCVC.xib in Resources */,
 				AA065FB023DDE04300DAD529 /* Montserrat in Resources */,
 				2FD04BC423DB041D00FF2D15 /* Assets.xcassets in Resources */,
 				2FD04BC223DB041B00FF2D15 /* Main.storyboard in Resources */,
@@ -169,6 +222,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E2B17976F6A03FD7EEA104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tensend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942D479FFC9243CF355121E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tensend/Pods-Tensend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tensend/Pods-Tensend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tensend/Pods-Tensend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FD04BB523DB041B00FF2D15 /* Sources */ = {
@@ -179,8 +274,13 @@
 				2FD04BBF23DB041B00FF2D15 /* ViewController.swift in Sources */,
 				2F1D8B8923DDDA4C005C4A61 /* LabelExtensions.swift in Sources */,
 				2FD04BBD23DB041B00FF2D15 /* AppDelegate.swift in Sources */,
+				2F5FBB0123E06D9100F64D4D /* OnlyImageCVC.swift in Sources */,
 				2F1D8B8723DDDA3F005C4A61 /* ViewControllerExtension.swift in Sources */,
+				2F5FBAFE23E06CF800F64D4D /* StackViewExtensions.swift in Sources */,
 				2F1D8B8423DDD3C6005C4A61 /* ScrollStackController.swift in Sources */,
+				2F89180323E07B5700200429 /* CategoriesView.swift in Sources */,
+				2F89180623E07B7A00200429 /* ImagesWithTitleCVC.swift in Sources */,
+				2F5FBAFC23E06BA100F64D4D /* FirstBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +424,7 @@
 		};
 		2FD04BCC23DB041D00FF2D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BB1AE0EFD66FB5BAEE6D9E /* Pods-Tensend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +443,7 @@
 		};
 		2FD04BCD23DB041D00FF2D15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47492243D7AA93527567AB07 /* Pods-Tensend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

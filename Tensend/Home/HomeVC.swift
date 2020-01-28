@@ -22,6 +22,11 @@ class HomeVC: ScrollStackController {
         let infoText = "Tensend-ке саяхаттап, өзіңіз үшін әлемнің шексіз білімін ашыңыз"
         info.setProperties(text: infoText, textColor: #colorLiteral(red: 0.2039215686, green: 0.262745098, blue: 0.337254902, alpha: 1), textAlignment: .center, numberLines: 2)
         stackView.addArrangedSubview(info)
+        let firstBanner = FirstBannerView()
+        stackView.addArrangedSubview(firstBanner)
+        
+        let cats = CategoriesView()
+        stackView.addArrangedSubview(cats)
     }
     
     
