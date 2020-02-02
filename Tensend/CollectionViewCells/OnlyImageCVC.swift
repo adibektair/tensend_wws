@@ -11,10 +11,13 @@ import EasyPeasy
 class OnlyImageCVC: UICollectionViewCell {
     let image = UIImageView()
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         self.addSubview(image)
         self.image.easy.layout(Edges())
     }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

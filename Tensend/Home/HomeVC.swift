@@ -12,6 +12,11 @@ class HomeVC: ScrollStackController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        stackView.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9764705882, alpha: 1)
+        setElements()
+    }
+    
+    func setElements(){
         let title = UILabel()
         title.setProperties( textColor: #colorLiteral(red: 0.2039215686, green: 0.262745098, blue: 0.337254902, alpha: 1), textAlignment: .center)
         title.setProperties(textColor: #colorLiteral(red: 0.2039215686, green: 0.262745098, blue: 0.337254902, alpha: 1), font: .systemFont(ofSize: 20, weight: .medium), textAlignment: .center)
