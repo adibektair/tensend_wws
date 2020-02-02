@@ -9,25 +9,26 @@
 import UIKit
 import EasyPeasy
 class CategoriesView: UIView {
-
-//    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout.init())
+    
+    //    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout.init())
     lazy var collectionView : UICollectionView = {
-             let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-             layout.sectionInset = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
-             layout.itemSize = CGSize(width: self.frame.width, height: self.frame.height)
-             layout.scrollDirection = .horizontal
-             layout.minimumLineSpacing = 0
-             layout.minimumInteritemSpacing = 0
-             let cv = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
-             //If you set it false, you have to add constraints.
-             cv.translatesAutoresizingMaskIntoConstraints = false
-             cv.delegate = self
-             cv.dataSource = self
-             cv.register(UINib(nibName: "ImagesWithTitleCVC", bundle: nil), forCellWithReuseIdentifier: "ImagesWithTitleCVC")
-             cv.backgroundColor = .clear
-             cv.isScrollEnabled = true
-             return cv
-         }()
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
+        layout.itemSize = CGSize(width: self.frame.width, height: self.frame.height)
+        layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
+        let cv = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
+        //If you set it false, you have to add constraints.
+        cv.translatesAutoresizingMaskIntoConstraints = false
+        cv.delegate = self
+        cv.dataSource = self
+        cv.register(UINib(nibName: "ImagesWithTitleCVC", bundle: nil), forCellWithReuseIdentifier: "ImagesWithTitleCVC")
+        cv.showsHorizontalScrollIndicator = false
+        cv.backgroundColor = .clear
+        cv.isScrollEnabled = true
+        return cv
+    }()
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addSubview(collectionView)

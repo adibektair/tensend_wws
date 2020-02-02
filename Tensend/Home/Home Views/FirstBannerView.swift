@@ -24,6 +24,7 @@ class FirstBannerView: UIView,UICollectionViewDelegate {
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.delegate = self
         cv.dataSource = self
+        cv.showsHorizontalScrollIndicator = false
         cv.register(OnlyImageCVC.self, forCellWithReuseIdentifier: "cell")
         cv.backgroundColor = .clear
         cv.isScrollEnabled = true
@@ -63,7 +64,7 @@ extension FirstBannerView: UICollectionViewDataSource, UICollectionViewDelegateF
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -73,7 +74,7 @@ extension FirstBannerView: UICollectionViewDataSource, UICollectionViewDelegateF
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 30
+        return 60
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 1
@@ -87,7 +88,7 @@ extension FirstBannerView: UICollectionViewDataSource, UICollectionViewDelegateF
         print("tapped \(indexPath.row)")
     }
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        self.pageControl.currentPage = indexPath.row
+//        self.pageControl.currentPage = indexPath.row
     }
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         if scrollView == collectionView {
@@ -112,7 +113,7 @@ extension FirstBannerView: UICollectionViewDataSource, UICollectionViewDelegateF
 
 extension FirstBannerView {
     func setupPageControl() {
-        pageControl.numberOfPages = 3
+        pageControl.numberOfPages = 4
         pageControl.translatesAutoresizingMaskIntoConstraints = false
         pageControl.currentPageIndicatorTintColor = #colorLiteral(red: 0, green: 0.2823529412, blue: 0.8039215686, alpha: 1)
         pageControl.subviews.forEach { (a) in
@@ -129,5 +130,6 @@ extension FirstBannerView {
         self.insertSubview(pageControl, at: 0)
         self.bringSubviewToFront(pageControl)
         self.addConstraints([leading, trailing, bottom])
+        pageControl.easy.layout(Height(20))
     }
 }

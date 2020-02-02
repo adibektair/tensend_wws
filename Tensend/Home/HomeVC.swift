@@ -12,7 +12,7 @@ class HomeVC: ScrollStackController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stackView.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9764705882, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9764705882, alpha: 1)
         setElements()
     }
     
@@ -21,6 +21,7 @@ class HomeVC: ScrollStackController {
         title.setProperties( textColor: #colorLiteral(red: 0.2039215686, green: 0.262745098, blue: 0.337254902, alpha: 1), textAlignment: .center)
         title.setProperties(textColor: #colorLiteral(red: 0.2039215686, green: 0.262745098, blue: 0.337254902, alpha: 1), font: .systemFont(ofSize: 20, weight: .medium), textAlignment: .center)
         title.text = "Cәлеместіз бе, Қайрат!"
+        title.layoutMargins = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
         stackView.addArrangedSubview(title)
         
         let info = UILabel()
@@ -29,9 +30,11 @@ class HomeVC: ScrollStackController {
         stackView.addArrangedSubview(info)
         let firstBanner = FirstBannerView()
         stackView.addArrangedSubview(firstBanner)
-        
+        addLine()
         let cats = CategoriesView()
         stackView.addArrangedSubview(cats)
+        addLine()
+        
     }
     
     
