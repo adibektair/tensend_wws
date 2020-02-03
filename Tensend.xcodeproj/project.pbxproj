@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1C542623E84AEE000748C4 /* SectionsName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C542523E84AEE000748C4 /* SectionsName.swift */; };
+		2F1C542823E855E3000748C4 /* ForYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C542723E855E3000748C4 /* ForYou.swift */; };
+		2F1C542B23E856C7000748C4 /* ForYouCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C542923E856C7000748C4 /* ForYouCVC.swift */; };
+		2F1C542C23E856C7000748C4 /* ForYouCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C542A23E856C7000748C4 /* ForYouCVC.xib */; };
 		2F1D8B7F23DDD388005C4A61 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B7E23DDD388005C4A61 /* HomeVC.swift */; };
 		2F1D8B8423DDD3C6005C4A61 /* ScrollStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */; };
 		2F1D8B8723DDDA3F005C4A61 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1C542523E84AEE000748C4 /* SectionsName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsName.swift; sourceTree = "<group>"; };
+		2F1C542723E855E3000748C4 /* ForYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYou.swift; sourceTree = "<group>"; };
+		2F1C542923E856C7000748C4 /* ForYouCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouCVC.swift; sourceTree = "<group>"; };
+		2F1C542A23E856C7000748C4 /* ForYouCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForYouCVC.xib; sourceTree = "<group>"; };
 		2F1D8B7E23DDD388005C4A61 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackController.swift; sourceTree = "<group>"; };
 		2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -96,6 +104,8 @@
 			children = (
 				2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */,
 				2F89180223E07B5700200429 /* CategoriesView.swift */,
+				2F1C542523E84AEE000748C4 /* SectionsName.swift */,
+				2F1C542723E855E3000748C4 /* ForYou.swift */,
 			);
 			path = "Home Views";
 			sourceTree = "<group>";
@@ -105,6 +115,8 @@
 			children = (
 				2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */,
 				2F89180423E07B7A00200429 /* ImagesWithTitleCVC.swift */,
+				2F1C542923E856C7000748C4 /* ForYouCVC.swift */,
+				2F1C542A23E856C7000748C4 /* ForYouCVC.xib */,
 				2F89180523E07B7A00200429 /* ImagesWithTitleCVC.xib */,
 			);
 			path = CollectionViewCells;
@@ -213,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1C542C23E856C7000748C4 /* ForYouCVC.xib in Resources */,
 				2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */,
 				2F89180723E07B7A00200429 /* ImagesWithTitleCVC.xib in Resources */,
 				AA065FB023DDE04300DAD529 /* Montserrat in Resources */,
@@ -272,6 +285,7 @@
 			files = (
 				2F1D8B7F23DDD388005C4A61 /* HomeVC.swift in Sources */,
 				2FD04BBF23DB041B00FF2D15 /* ViewController.swift in Sources */,
+				2F1C542623E84AEE000748C4 /* SectionsName.swift in Sources */,
 				2F1D8B8923DDDA4C005C4A61 /* LabelExtensions.swift in Sources */,
 				2FD04BBD23DB041B00FF2D15 /* AppDelegate.swift in Sources */,
 				2F5FBB0123E06D9100F64D4D /* OnlyImageCVC.swift in Sources */,
@@ -279,8 +293,10 @@
 				2F5FBAFE23E06CF800F64D4D /* StackViewExtensions.swift in Sources */,
 				2F1D8B8423DDD3C6005C4A61 /* ScrollStackController.swift in Sources */,
 				2F89180323E07B5700200429 /* CategoriesView.swift in Sources */,
+				2F1C542B23E856C7000748C4 /* ForYouCVC.swift in Sources */,
 				2F89180623E07B7A00200429 /* ImagesWithTitleCVC.swift in Sources */,
 				2F5FBAFC23E06BA100F64D4D /* FirstBannerView.swift in Sources */,
+				2F1C542823E855E3000748C4 /* ForYou.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

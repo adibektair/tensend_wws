@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EasyPeasy
 
 class HomeVC: ScrollStackController {
     
@@ -35,6 +36,18 @@ class HomeVC: ScrollStackController {
         stackView.addArrangedSubview(cats)
         addLine()
         
+        let section = SectionsName()
+        section.setData(title: "СІЗ ҮШІН", desc: "Сізге ұнауы мүмкін сабақтар тізімі")
+        stackView.addArrangedSubview(section)
+        
+        let forYou = ForYou()
+        stackView.addArrangedSubview(forYou)
+        
+        let oneBanner = UIImageView()
+        oneBanner.image = #imageLiteral(resourceName: "oneBanner")
+        oneBanner.contentMode = .scaleToFill
+        oneBanner.easy.layout(Height(126))
+        stackView.addArrangedSubview(oneBanner)
     }
     
     
