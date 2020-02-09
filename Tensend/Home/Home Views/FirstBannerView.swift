@@ -55,11 +55,6 @@ class FirstBannerView: UIView,UICollectionViewDelegate {
     
 }
 extension FirstBannerView: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout  {
-    func life(){
-        //         collectionView.register(OnlyImageCVC.self, forCellWithReuseIdentifier: "OnlyImageCVC")
-        self.collectionView.delegate = self
-        self.collectionView.dataSource = self
-    }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }

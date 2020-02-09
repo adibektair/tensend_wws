@@ -15,6 +15,13 @@
 		2F1D8B8423DDD3C6005C4A61 /* ScrollStackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */; };
 		2F1D8B8723DDDA3F005C4A61 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */; };
 		2F1D8B8923DDDA4C005C4A61 /* LabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */; };
+		2F43C08623F06B85003A65CF /* MyCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08523F06B85003A65CF /* MyCourses.swift */; };
+		2F43C08823F06EDF003A65CF /* EachCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08723F06EDF003A65CF /* EachCourse.swift */; };
+		2F43C08A23F071E8003A65CF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08923F071E8003A65CF /* Colors.swift */; };
+		2F43C08C23F08128003A65CF /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08B23F08128003A65CF /* ViewExtensions.swift */; };
+		2F43C08E23F087AD003A65CF /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08D23F087AD003A65CF /* Meditation.swift */; };
+		2F43C09123F08868003A65CF /* MeditationCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C08F23F08868003A65CF /* MeditationCVC.swift */; };
+		2F43C09223F08868003A65CF /* MeditationCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F43C09023F08868003A65CF /* MeditationCVC.xib */; };
 		2F5FBAFC23E06BA100F64D4D /* FirstBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */; };
 		2F5FBAFE23E06CF800F64D4D /* StackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */; };
 		2F5FBB0123E06D9100F64D4D /* OnlyImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */; };
@@ -39,6 +46,13 @@
 		2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackController.swift; sourceTree = "<group>"; };
 		2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtensions.swift; sourceTree = "<group>"; };
+		2F43C08523F06B85003A65CF /* MyCourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourses.swift; sourceTree = "<group>"; };
+		2F43C08723F06EDF003A65CF /* EachCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachCourse.swift; sourceTree = "<group>"; };
+		2F43C08923F071E8003A65CF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2F43C08B23F08128003A65CF /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		2F43C08D23F087AD003A65CF /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		2F43C08F23F08868003A65CF /* MeditationCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCVC.swift; sourceTree = "<group>"; };
+		2F43C09023F08868003A65CF /* MeditationCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditationCVC.xib; sourceTree = "<group>"; };
 		2F5FBAFB23E06BA100F64D4D /* FirstBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBannerView.swift; sourceTree = "<group>"; };
 		2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewExtensions.swift; sourceTree = "<group>"; };
 		2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyImageCVC.swift; sourceTree = "<group>"; };
@@ -94,7 +108,9 @@
 				2F1D8B8323DDD3C6005C4A61 /* ScrollStackController.swift */,
 				2F5FBAFD23E06CF800F64D4D /* StackViewExtensions.swift */,
 				2F1D8B8623DDDA3F005C4A61 /* ViewControllerExtension.swift */,
+				2F43C08923F071E8003A65CF /* Colors.swift */,
 				2F1D8B8823DDDA4C005C4A61 /* LabelExtensions.swift */,
+				2F43C08B23F08128003A65CF /* ViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -106,6 +122,9 @@
 				2F89180223E07B5700200429 /* CategoriesView.swift */,
 				2F1C542523E84AEE000748C4 /* SectionsName.swift */,
 				2F1C542723E855E3000748C4 /* ForYou.swift */,
+				2F43C08523F06B85003A65CF /* MyCourses.swift */,
+				2F43C08723F06EDF003A65CF /* EachCourse.swift */,
+				2F43C08D23F087AD003A65CF /* Meditation.swift */,
 			);
 			path = "Home Views";
 			sourceTree = "<group>";
@@ -115,6 +134,8 @@
 			children = (
 				2F5FBB0023E06D9100F64D4D /* OnlyImageCVC.swift */,
 				2F89180423E07B7A00200429 /* ImagesWithTitleCVC.swift */,
+				2F43C08F23F08868003A65CF /* MeditationCVC.swift */,
+				2F43C09023F08868003A65CF /* MeditationCVC.xib */,
 				2F1C542923E856C7000748C4 /* ForYouCVC.swift */,
 				2F1C542A23E856C7000748C4 /* ForYouCVC.xib */,
 				2F89180523E07B7A00200429 /* ImagesWithTitleCVC.xib */,
@@ -228,6 +249,7 @@
 				2F1C542C23E856C7000748C4 /* ForYouCVC.xib in Resources */,
 				2FD04BC723DB041D00FF2D15 /* LaunchScreen.storyboard in Resources */,
 				2F89180723E07B7A00200429 /* ImagesWithTitleCVC.xib in Resources */,
+				2F43C09223F08868003A65CF /* MeditationCVC.xib in Resources */,
 				AA065FB023DDE04300DAD529 /* Montserrat in Resources */,
 				2FD04BC423DB041D00FF2D15 /* Assets.xcassets in Resources */,
 				2FD04BC223DB041B00FF2D15 /* Main.storyboard in Resources */,
@@ -283,10 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F43C09123F08868003A65CF /* MeditationCVC.swift in Sources */,
 				2F1D8B7F23DDD388005C4A61 /* HomeVC.swift in Sources */,
 				2FD04BBF23DB041B00FF2D15 /* ViewController.swift in Sources */,
 				2F1C542623E84AEE000748C4 /* SectionsName.swift in Sources */,
+				2F43C08A23F071E8003A65CF /* Colors.swift in Sources */,
+				2F43C08C23F08128003A65CF /* ViewExtensions.swift in Sources */,
+				2F43C08623F06B85003A65CF /* MyCourses.swift in Sources */,
 				2F1D8B8923DDDA4C005C4A61 /* LabelExtensions.swift in Sources */,
+				2F43C08E23F087AD003A65CF /* Meditation.swift in Sources */,
 				2FD04BBD23DB041B00FF2D15 /* AppDelegate.swift in Sources */,
 				2F5FBB0123E06D9100F64D4D /* OnlyImageCVC.swift in Sources */,
 				2F1D8B8723DDDA3F005C4A61 /* ViewControllerExtension.swift in Sources */,
@@ -295,6 +322,7 @@
 				2F89180323E07B5700200429 /* CategoriesView.swift in Sources */,
 				2F1C542B23E856C7000748C4 /* ForYouCVC.swift in Sources */,
 				2F89180623E07B7A00200429 /* ImagesWithTitleCVC.swift in Sources */,
+				2F43C08823F06EDF003A65CF /* EachCourse.swift in Sources */,
 				2F5FBAFC23E06BA100F64D4D /* FirstBannerView.swift in Sources */,
 				2F1C542823E855E3000748C4 /* ForYou.swift in Sources */,
 			);

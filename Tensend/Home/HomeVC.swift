@@ -13,7 +13,7 @@ class HomeVC: ScrollStackController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9764705882, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9607843137, blue: 0.9803921569, alpha: 1)
         setElements()
     }
     
@@ -48,6 +48,24 @@ class HomeVC: ScrollStackController {
         oneBanner.contentMode = .scaleToFill
         oneBanner.easy.layout(Height(126))
         stackView.addArrangedSubview(oneBanner)
+        
+        let courseTitle = SectionsName()
+        courseTitle.setData(title: "МЕНІҢ КУРСТАРЫМ", desc: "Сізге ұнайтын сабақтар тізімі")
+        stackView.addArrangedSubview(courseTitle)
+        
+        let coursesList = MyCourses()
+        stackView.addArrangedSubview(coursesList)
+        addLine()
+        
+        let meditacion = SectionsName()
+           meditacion.setData(title: "МЕДИТАЦИЯ", desc: "Бүгінгі күнге күш қуат пен энергия алыңыз")
+           stackView.addArrangedSubview(meditacion)
+        let meditationList = Meditation()
+        stackView.addArrangedSubview(meditationList)
+        let bottomImage = UIImageView()
+        bottomImage.image = #imageLiteral(resourceName: "bottomIMG")
+        bottomImage.easy.layout(Height(379))
+        stackView.addArrangedSubview(bottomImage)
     }
     
     
